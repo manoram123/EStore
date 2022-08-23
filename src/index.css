@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "poppins";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-n {
+  color: "#3f3f3f"
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.form-input {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  border: 2px solid #959595;
+  width: 100%;
+  padding-top: 1.5ch;
+  padding-bottom: 1.5ch;
+  transition: 0.2s;
+}
+
+.form{
+  background-color: #fff;
+}
+
+.form-input:focus {
+  background-color: #e8e8e8;
+}
+
+.btn-primary {
+  background: #4971FF !important;
+  border: none !important;
+}
+.btn-primary:hover {
+  background: #2555ff !important;
+}
+
+.text-sm{
+  font-size: 0.9rem;
+}
+.text-xs{
+  font-size: 0.7rem;
+}
+
+.search-box{
+  background: #d9d9d9;
+  border-radius: 30px;
+}
+
+.poster{
+  transition: 0.3s;
+}
+
+.poster:hover{
+  box-shadow: 0 0 20px -3px;
+}
+
+.carousel{
+  /* height: 70vh; */
+  border-radius: 10px;
+}
+
+.carousel-inner{
+  border-radius: 10px;
+}
+
+.carousel-indicators{
+  overflow-x: scroll;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(56, 56, 56, 0.6);
+}
+
+.cid{
+  background-color: none;
+}
+
+.carousel-indicators::-webkit-scrollbar{
+  display: none;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  height: 80%;
+}
+
+.game-banner{
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.backdrop{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* background: linear-gradient(rbga(0, 0, 0, 0,  0.2), rbga(0, 0, 0, 0,  0.2)); */
+}
+
+.active-n{
+  font-weight: bold;
+
 }

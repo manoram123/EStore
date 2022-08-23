@@ -1,0 +1,22 @@
+.games-list{
+    overflow-y: scroll;
+    height: 30vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    position: absolute;
+    top: 7ch;
+    z-index: 1;
+    background: #fff;
+}
+
+.game-list:-webkit-scrollbar{
+    display: none;
+}
+
+.game{
+    cursor: pointer;
+}
+
+.game:hover{
+    background: #e9e9e9;
+}
